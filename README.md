@@ -28,33 +28,6 @@
 
 ---
 
-## Google Gemini API 설정 (개발자 참고용)
-
-앱에서 Google Gemini API를 사용하기 위해 다음 단계를 따라주세요:
-
-1.  [Google AI Studio](https://makersuite.google.com/app/apikey) 또는 [Google Cloud Console](https://console.cloud.google.com/)에서 API 키를 생성합니다.
-2.  `lib/services/food_recognition_service.dart` 파일에서 `apiKey` 변수에 발급받은 API 키를 입력합니다.
-3.  API 호출 부분의 주석을 해제하여 실제 API 호출이 가능하도록 합니다.
-
-```dart
-// food_recognition_service.dart 예시
-static const String apiKey = 'YOUR_API_KEY'; // 여기에 발급받은 API 키를 입력하세요
-```
-
----
-
-## 설치 및 실행 (개발자 참고용)
-
-```bash
-# 의존성 설치
-flutter pub get
-
-# 앱 실행
-flutter run
-```
-
----
-
 ## 앱 권한 요구사항
 
 왓이트 앱은 원활한 기능 제공을 위해 다음과 같은 기기 권한을 요청할 수 있습니다:
